@@ -1,26 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <title>Functions at an Amusement Park</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- W3.CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- W3 Theme -->
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
 </head>
-<body>
-<iframe src="https://www.desmos.com/calculator/zapfxrhbgz?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
-<h1>cat</h1>
-<p>cats</p>
-<h2>&nbsp; Pets </h2>
-<p> &nbsp; cat </p>
-<p> &nbsp; dog </p>
-<p> &nbsp; turtle </p> 
- 
-<h2> Fruits </h2> 
- <ul>
-<li> apple </li>
-<li> banana </li>
-<li> oranges </li>
-</ul>
+<body class="w3-light-grey">
 
-<h1 style="background-color:Pink;">.</h1>
-<p style="color:violet;">Ut wisi enim...</p>
+<!-- HEADER -->
+<header class="w3-container w3-padding-64 w3-center" style="
+    background: linear-gradient(135deg, #ff9ec4, #ff66b3);
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+">
+    <h1 class="w3-jumbo">🎢 Functions at an Amusement Park</h1>
+    </header><!-- === SECTION 1: LOGARITHMIC FUNCTION === -->
+<div class="w3-container w3-padding-32">
+    <h2 class="w3-xxlarge w3-text-indigo">Logarithmic Function</h2>
+
+    <div class="w3-container w3-white w3-card w3-margin-top w3-padding">
+        <h3 class="w3-text-teal">Interactive Graph</h3>
+        <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+            <iframe 
+                src="https://www.desmos.com/calculator/pn0wtmkjpk?embed" 
+                style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;" 
+                frameborder="0">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Transformations</h3>
+        <p>For this photo of the rollercoaster, I chose to use logarithm as the main function and I connected it with another function of degree 2. The parent function for logarithmic functions is f(x)= log x. I transformed f(x) to become g(x)= 5 log(x + 4.6) + 1. It vertically stretches the graph with factor of 5, horizontally translates the graph to the left by 4.6 units, vertically translates the graph 1 unit upwards which makes the function fit to the photo of the rollercoaster. For the second function, the parent function is f(x) = x². The transformed function for that is g(x)= -0.9[0.3(x+1)]²+4.2. It reflects on the x-axis, vertically stretches by a factor of 0.9, horizontally stretches by a factor of 0.3, horizontally translates the graph to the left by 1 unit, vertically translates 4.2 unit upwards.
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Domain and Range</h3>
+        <p>The domain and range for the logarithmic function is {x ∈ R|x > 0} and {y ∈ R}. I've restricted the domain to {x ∈ R|-4.39 < x < 0.5 } to make sure it fits into the rollercoaster while the range remains the same. For the second function in the rollercoaster which is a quadratic function of degree two however, the domain and range is {x ∈ R} as well as {y ∈ R| y ≤ 0 }. I've also restricted the domain to 
+{x ∈ R| 0 < x < 6} while the range is {y ∈ R| y ≤ 4.2}.</p>
+    </div>
+</div>
+
+<!-- === SECTION 2: ABSOLUTE VALUE FUNCTION === -->
+<div class="w3-container w3-padding-32">
+    <h2 class="w3-xxlarge w3-text-indigo">Absolute Value Function</h2>
+
+    <div class="w3-container w3-white w3-card w3-margin-top w3-padding">
+        <h3 class="w3-text-teal">Interactive Graph</h3>
+        <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+            <iframe 
+                src="https://www.desmos.com/calculator/xjtah8aqdg?embed" 
+                style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;" 
+                frameborder="0">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Transformations</h3>
+        <p>By looking at the photo, an absolute value function is the best function to be used here as the rollercoaster is going straight downwards. The parent function for an absolute value function is f(x)=|x|. The transformed function here is g(x)= |-1.1[(2.8x+0.1)]+1|. The graph reflects on the x-axis, vertically stretches by a factor of 1.1, horizontally compresses by a factor of 1/2.8, horizontally shifts to the left by 0.1 unit, and it vertically shifts by 1 unit upwards. Because it is an absolute value graph, any part of the graph that belongs to the negative y-axis will reflect upwards and become mirrored.</p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Domain and Range</h3>
+        <p>The domain and range for an absolute value function is {x ∈ R} and {y ∈ | y ≥ 0}. I've restricted the domain to {x ∈ R|-2 < x < 0.222468} while the range remains the same.
+</p>
+    </div>
+</div>
+
+<!-- === SECTION 3: QUADRATIC FUNCTION (DEGREE 2) === -->
+<div class="w3-container w3-padding-32">
+    <h2 class="w3-xxlarge w3-text-indigo">Quadratic Function (Degree 2)</h2>
+
+    <div class="w3-container w3-white w3-card w3-margin-top w3-padding">
+        <h3 class="w3-text-teal">Interactive Graph</h3>
+        <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+            <iframe 
+                src="https://www.desmos.com/calculator/zapfxrhbgz?embed" 
+                style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;" 
+                frameborder="0">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Transformations</h3>
+        <p>The photo of this rollercoaster looks very similar to a parabola, therefore I decided to use a quadratic function of degree two to graph out the rollercoaster. The parent function for quadratic functions of degree two is f(x) = x². I transformed the parent function to become g(x)= -0.9[0.8(x-0)]²+4.8. The graph reflects on the x-axis, vertically compresses by a factor of 0.9, horizontally stretches by a factor of 1/0.8, and it vertically translates the graph 4.8 units upwards.</p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Domain and Range</h3>
+        <p>The domain and range for a quadratic function of degree two is {x ∈ R} and {y ∈ R| y ≤ 0}. I've restricted the domain to {x ∈ R|-3.16228 < x < 3.16228 } to fit to the photo of the rollercoaster while the range is {y ∈ R| y ≤ 4.8}.</p>
+    </div>
+</div>
+
+<!-- === SECTION 4: RATIONAL FUNCTION (1/X) === -->
+<div class="w3-container w3-padding-32">
+    <h2 class="w3-xxlarge w3-text-indigo">Rational Function (1/x)</h2>
+
+    <div class="w3-container w3-white w3-card w3-margin-top w3-padding">
+        <h3 class="w3-text-teal">Interactive Graph</h3>
+        <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+            <iframe 
+                src="https://www.desmos.com/calculator/nfpitgtuuw?embed"
+                style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;"
+                frameborder="0">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Transformations</h3>
+        <p>For this pirate ride, I chose to use rational function . The parent function for rational function is f(x)=1/x which normally has vertical asymptote at x=0 and horizontal asymptote at y=0. I transformed f(x)=1/x to g(x)=-1(1/0.1(x-4.3))-5.9 to adjust the graph to best fit the curve as a pirate ride. The negative value of a=-1 is reflection on the x axis, flipping the curve downward. The constant k=0.1 is horizontal stretch of factor 10,making the curve wider. The value d=4.3 is horizontal translation of 4.3 units to right and the  value c=-5.9 is vertical translation of 5.9 units downward. Therefore, g(x) has the vertical asymptote at x=4.3 and horizontal asymptote at y=-5.9. </p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Domain and Range</h3>
+        <p>The domain of parent function is {x ∈ R| x ≠ 0} and the range is {y ∈ R| y ≠ 0}. However, I restricted the x value for {0 < x < 2.8} and the transformations change the domain and range values. Therefore , the domain of g(x) becomes { x ∈ R |0 < x < 2.8} and the range of g(x) is {y ∈ R| -3.6 < y < 0.8}.
+</p>
+   
+</div>
+
+<!-- === SECTION 5: Polynomial Degree (Degree 4) === -->
+<div class="w3-container w3-padding-32">
+    <h2 class="w3-xxlarge w3-text-indigo">Polynomial Degree (Degree 4)</h2>
+
+    <div class="w3-container w3-white w3-card w3-margin-top w3-padding">
+        <h3 class="w3-text-teal">Interactive Graph</h3>
+        <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+            <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+    <iframe 
+        src="https://www.desmos.com/calculator/ytb0ciitgl?embed" 
+        style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;" 
+        frameborder="0">
+    </iframe>
+</div>
+        </div>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Transformations</h3>
+        <p>For this part of the rollercoaster, I chose to use a polynomial function . The parent function for polynomial function is f(x)=x^4, which normally has a minimum value at the origin and opens upward. I transformed f(x) to become g(x)=-0.3(3(x+0.6))^4 +3 to make the graph best fit the top curve of the rollercoaster. The negative value of a=-0.3 is reflection on the x axis, causing it to open downward. It is vertical compression of factor 0.3. The value k=3 is horizontal compression of factor 1/3, making the curve narrower. The value d=-0.6 is horizontal translation of 0.6 units to left and c‎ = 3 is vertical translation of 3 units upward. The minimum value at y=3.</p>
+    </div>
+
+    <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+        <h3 class="w3-text-indigo">Domain and Range</h3>
+        <p>The domain of parent function is { x ∈ R} and the range is
+ { y ∈ R| y > 0}. However, I restricted the y value for { -5 < y < 3} and the transformations change the domain and range values. Therefore , the domain of g(x) becomes { x ∈ R| -1.4 < x < 0.16} and the range of g(x) is 
+{y ∈ R| -5 < y < 3}.</p>
+    </div>
+<!-- === SECTION: TRIGONOMETRIC FUNCTION WITH ASYMPTOTE (TANGENT) === -->
+<div class="w3-container w3-padding-32">
+  <h2 class="w3-xxlarge w3-text-indigo">Trigonometric Function with Asymptote (Tangent)</h2>
+  <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+        <iframe 
+            src="https://www.desmos.com/calculator/cehhhuykta?embed" 
+            style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;" 
+            frameborder="0">
+        </iframe>
+    </div>
+</div>
+  <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+    <h3 class="w3-text-indigo">Transformations</h3>
+    <p>For this part of the rollercoaster, I chose to use trigonometric functions of tangent and I connected it with another quadratic function of quadratic. The parent function for trigonometric functions is f(x)=tan(x)^3.  I transformed f(x) to become g(x)=10(tan(1.5(x-2.7))^3+3.5 to make the graph best fit the curve of the rollercoaster. The value of a =10 is the vertical stretch of factor 10. The value k=1.5 is horizontal compression of factor 2/3. The value d=2.7 is horizontal translation of 2.7 units to the right. The value c=3.5 is vertical translation of factor 3.5 upwards. For the second function, the parent function is f(x)=x^2. I transformed f(x) to become g(x)= -0.3(x+3)^2+1.2 to get the best fit curve of the rollercoaster part. The negative value of a=-0.3 is reflection on the x axis, causing it to open downward. It is vertical compression of factor 0.3. The value of d=-3 is horizontal translation of 3 units to left. The value of c=1.2 is vertical translation of 1.2 units upward.
+</p>
+  </div>
+  <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+    <h3 class="w3-text-indigo">Domain and Range</h3>
+    <p> Since tangent functions have vertical asymptotes, this function’s domain is restricted. Based on my graph, the part I used is only between 
+{0.12 < x < 2.7}. So, the domain in interval notation is
+ {x ∈ R| 0.12 < x < 2.7} .The range of the function is {y ∈ R|-3.2<y<3.6}. For the quadratic function, the domain of parent function is {x∈R} and the range is 
+{y ∈ R| y > 0}. However, I restricted the x value for {-3.32 < x < 1} , y value for {y > -4.5} and the transformations change the domain and range values. Therefore , the domain of g(x) becomes  
+{ x ∈ R |-3.32 < x < 1} and the range of g(x) is {y ∈ R | -4.5 < y < 1}.
+</p>
+
+</div>
+
+<!-- === SECTION: SINUSOIDAL FUNCTION (SINE) === -->
+<div class="w3-container w3-padding-32">
+  <h2 class="w3-xxlarge w3-text-indigo">Sinusoidal Function (Sine)</h2>
+  <div class="w3-container w3-white w3-card w3-margin-top w3-padding">
+    <h3 class="w3-text-teal">Interactive Graph</h3>
+    <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+    <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+    <iframe 
+        src="https://www.desmos.com/calculator/gbibzzpnme?embed" 
+        style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;" 
+        frameborder="0">
+    </iframe>
+</div>
+
+    </div>
+  </div>
+  <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+    <h3 class="w3-text-indigo">Transformations</h3>
+    <p> When exploring the function graph corresponding to the shape of an amusement facility—derived from the parent function 
+f(x)=sinx the transformation process follows these sequential steps: First, apply a vertical stretch to the parent function by a factor of 1.6. Next, perform a horizontal compression by a factor of 2.6. Then, shift the transformed graph 3.16 units to the right. Finally, shift the graph downward by 0.87 units. Through these steps, the resulting function graph is tailored to match the specific shape characteristics of the target amusement facility.</p>
+  </div>
+  <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+    <h3 class="w3-text-indigo">Domain and Range</h3>
+    <p>A parent function has a domain of (-∞ ,+∞) and a range of (-1, +1). After the transformation, its domain is mapped to (-0.6, 2) and its range becomes [-2.47, 0.73].</p>
+  </div>
+</div>
+
+<!-- === SECTION: EXPONENTIAL FUNCTION === -->
+<div class="w3-container w3-padding-32">
+  <h2 class="w3-xxlarge w3-text-indigo">Exponential Function</h2>
+  <div class="w3-container w3-white w3-card w3-margin-top w3-padding">
+    <h3 class="w3-text-teal">Interactive Graph</h3>
+    <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+     <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+    <iframe 
+        src="https://www.desmos.com/calculator/hmffvhnzat?embed" 
+        style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;" 
+        frameborder="0">
+    </iframe>
+</div>
+    </div>
+  </div>
+  <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+    <h3 class="w3-text-indigo">Transformations</h3>
+    <p> When exploring the function graph that corresponds to the shape of an amusement facility—with the parent function f(x) = 2^x as its basis—the transformation process proceeds in two key steps. First, apply a horizontal compression to the parent function by a factor of 1/1.4. Then, shift the compressed graph 1.4 units to the right. Through these steps, the resulting function graph is tailored to match the specific shape characteristics of the target amusement facility.</p>
+  </div>
+  <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+    <h3 class="w3-text-indigo">Domain and Range</h3>
+    <p>A parent function has a domain of (-∞ ,0)∪(0,+∞) and a range of (0,+∞). After the transformation, its domain is mapped to (-3.5, 3.05) and its range becomes [0, 33.614).</p>
+  </div>
+</div>
+<!-- === SECTION: RATIONAL FUNCTION (1/X²) === -->
+<div class="w3-container w3-padding-32">
+  <h2 class="w3-xxlarge w3-text-indigo">Rational Function (1/x²)</h2>
+  <div class="w3-container w3-white w3-card w3-margin-top w3-padding">
+    <h3 class="w3-text-teal">Interactive Graph</h3>
+    <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+      <div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+<div class="w3-responsive" style="position:relative; padding-bottom:100%; height:0; overflow:hidden;">
+    <iframe 
+        src="https://www.desmos.com/calculator/ysknq6sqdk?embed" 
+        style="position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #ccc;" 
+        frameborder="0">
+    </iframe>
+</div>
+
+</div>
+    </div>
+  </div>
+  <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+    <h3 class="w3-text-indigo">Transformations</h3>
+    <p>DESCRIPTION OF 1/X² To explore the function graph corresponding to the shape of amusement facilities—derived from the parent function f(x)= 1/x^2 —the transformation process is carried out in the following sequential steps: First, perform a reflection over the x-axis on the parent function. Next, apply a vertical compression by a factor of 0.5. Subsequently, implement a horizontal compression by a factor of 1/5.2. After that, shift the transformed graph 2.4 units to the left. Finally, shift the graph upward by 3.8 units. Through these steps, the resulting function graph is tailored to match the specific shape characteristics of the target amusement facility.</p>
+  </div>
+  <div class="w3-container w3-card w3-white w3-margin-top w3-padding">
+    <h3 class="w3-text-indigo">Domain and Range</h3>
+    <p>A parent function has a domain of (-∞ ,0)∪(0,+∞) and a range of (-∞ ,0)∪(0,+∞). After the transformation, its domain is mapped to (-2.25, 1.2) and its range becomes (-0.4735, 3.7926)</p>
+  </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer class="w3-center w3-theme-d5 w3-padding-32">
+    <p>© 2025 FUNCTIONS AT AN AMUSEMENT PARK | BUILT WITH W3.CSS</p>
+</footer>
 
 </body>
 </html>
+
